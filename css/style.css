@@ -1,0 +1,215 @@
+/*
+
+Author: wwww.developers.today
+Email: devtoday22@gmail.com
+Github profile: https://github.com/devtoday22
+Live link: developers.today/cards */
+
+/* Reset CSS Style */
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px auto;
+    max-width: 990px;
+    height: 500px;
+    background-color: #E28625;  
+    
+}
+
+.card {
+
+    
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+img {
+
+    margin-left: 48px;
+    margin-top: 48px;
+}
+
+.card-title {
+
+    margin-top: 20px;
+    margin-left: 48px;
+    font-size: 40px;
+}
+
+.card-text {
+
+    margin-top: 20px;
+    margin-left: 48px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 212px;
+    height: 125px;
+    word-break: normal; 
+    padding: 3px 20px 3px 3px;
+    font-weight: 400;
+    font-style: normal;
+    opacity: 0.75;
+    mix-blend-mode: normal;
+}
+
+ /* Cards buttons */
+
+.sedan {
+
+    padding: 11px 31px 11px 31px;
+    background-color: #ffffff;
+    color: #E28625;;
+    width: 146px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px white solid;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 48px;
+}
+
+
+.suvs {
+
+    padding: 11px 31px 11px 31px;
+    background-color: #ffffff;
+    color: #006971;
+    width: 146px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px white solid;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 48px;
+}
+
+
+.luxury {
+
+    padding: 11px 31px 11px 31px;
+    background-color: #ffffff;
+    color: #004140;
+    width: 146px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px white solid;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 48px;
+}
+
+/* Hover for buttons */
+
+.sedan:hover {
+
+    background-color: #E28625;
+    color: #ffffff;
+    border: 2px white solid;
+    font-style: normal;
+    opacity: 0.75;
+    mix-blend-mode: normal;
+}
+
+.suvs:hover {
+
+    background-color: #006971;
+    color: #ffffff;
+    border: 2px white solid;
+    font-style: normal;
+    opacity: 0.75;
+    mix-blend-mode: normal;
+}
+
+.luxury:hover {
+
+    background-color: #004140;
+    color: #ffffff;
+    border: 2px white solid;
+    font-style: normal;
+    opacity: 0.75;
+    mix-blend-mode: normal;
+}
+
+/* For the second Card */
+
+div:nth-child(2) {
+
+    background: #006971;
+
+}
+
+/* For the first Card */
+
+  div:nth-child(3) {
+
+    background: #004140;
+
+}
+
+
+/* Mobile responsive part */
+
+@media only screen and (max-width: 330px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 6px;
+    }
+  }
+
+  /* Buttons for responsive version */
+
+  @media only screen and (max-width: 1000px) {
+    
+    .sedan {
+        
+        margin-bottom: 48px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    
+    .suvs {
+        
+        margin-bottom: 48px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    
+    .luxury {
+        
+        margin-bottom: 48px;
+    }
+  }
