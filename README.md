@@ -6,4 +6,4 @@
 
 This responsive cards design is from Frontend mentory exersice. I created it by usint css grid.
 Additional I added some meta tags, which improve SEO.
-You can see LIVE link: http://developers.today/cards/
+You can see LIVE link: https://devtoday22.github.io/Stats-preview-card-component/
